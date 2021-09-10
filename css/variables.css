@@ -1,0 +1,13 @@
+:root{
+    /*Colores primarios*/
+  --PC-Blue: #0078d4;
+  --PC-Purple: #5c2d91;
+
+/*Accent color*/
+    --Dark-Blue: #203A61;
+
+  /*Colores neutrales*/
+  --Black: #000;
+  --White: #fff;
+  --E-LightGray: #f2f2f2;
+}
