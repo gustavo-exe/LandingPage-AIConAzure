@@ -1,0 +1,40 @@
+.cover{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    align-content: center;
+    flex-direction: row;
+    padding: 0rem 4rem 0rem 4rem;
+}
+.contenedor-de-rueda{
+    transform: translateX(-60%);
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+
+.rueda
+{
+    height:100vh;
+}
+
+@media only screen and (max-width: 959px) {
+    .cover{
+        padding: 4rem;
+        flex-direction: column-reverse;
+    }
+    .contenedor-de-rueda{
+        transform: translateX(-30%);
+    }
+
+    .rueda{
+        height:70vh;
+    }
+    
+    h1{
+        font-size: 2rem;
+    }
+}
