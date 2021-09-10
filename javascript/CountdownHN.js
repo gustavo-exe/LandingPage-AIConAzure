@@ -14,9 +14,9 @@ var myfunc = setInterval(function() {
     var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
         
     // TImepo restante que se ira mostrando
-    document.getElementById("days").innerHTML = days + ":"
-    document.getElementById("hours").innerHTML = hours + ":" 
-    document.getElementById("mins").innerHTML = minutes + ":" 
+    document.getElementById("days").innerHTML = days 
+    document.getElementById("hours").innerHTML = hours  
+    document.getElementById("mins").innerHTML = minutes 
     document.getElementById("secs").innerHTML = seconds 
         
     // Mensaje que se desplegara cuando el tiempo se acabe
