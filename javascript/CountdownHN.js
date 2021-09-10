@@ -1,5 +1,5 @@
 // Hora-fecha que el contador se acabara
-var countDownDate = new Date("Sep 2, 2021 15:00:00 GMT-06:00").getTime();
+var countDownDate = new Date("Sep 18, 2021 16:00:00 GMT-06:00").getTime();
 
 // Ejecutar la funcion cada segundo
 var myfunc = setInterval(function() {
@@ -14,10 +14,10 @@ var myfunc = setInterval(function() {
     var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
         
     // TImepo restante que se ira mostrando
-    document.getElementById("days").innerHTML = days + "d "
-    document.getElementById("hours").innerHTML = hours + "h " 
-    document.getElementById("mins").innerHTML = minutes + "m " 
-    document.getElementById("secs").innerHTML = seconds + "s " 
+    document.getElementById("days").innerHTML = days + ":"
+    document.getElementById("hours").innerHTML = hours + ":" 
+    document.getElementById("mins").innerHTML = minutes + ":" 
+    document.getElementById("secs").innerHTML = seconds 
         
     // Mensaje que se desplegara cuando el tiempo se acabe
     if (timeleft < 0) {
