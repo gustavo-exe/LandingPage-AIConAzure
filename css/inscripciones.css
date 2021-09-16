@@ -2,6 +2,11 @@
     min-height: 100vh;
     padding: 4rem;
     display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content:center;
+    background: linear-gradient(180deg, #203A61 0%, #0078D4 100%);
+    color: var(--White);
 }
 
 .detalles{
@@ -10,7 +15,7 @@
     align-items:center;
     gap: 4rem;
     justify-content: center;
-    width:100%;    
+    width:100%;
 }
 
 .contador, .direccion{
@@ -85,13 +90,11 @@ a{
 }
 
 .boton{
-    margin-top: 4rem;
-    color: var(--White);
-    
+    margin-top: 1rem;
+    background-color: var(--PC-Purple);
     text-align: center;
-    padding:1rem;
-    background-color: var(--PC-Blue);
-    
+    padding:1rem; 
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 599px)
