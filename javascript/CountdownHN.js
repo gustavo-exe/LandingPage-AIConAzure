@@ -1,5 +1,5 @@
 // Hora-fecha que el contador se acabara
-var countDownDate = new Date("Sep 18, 2021 16:00:00 GMT-06:00").getTime();
+var countDownDate = new Date("Sep 25, 2021 16:00:00 GMT-06:00").getTime();
 
 // Ejecutar la funcion cada segundo
 var myfunc = setInterval(function() {
@@ -23,11 +23,9 @@ var myfunc = setInterval(function() {
     if (timeleft < 0) {
         clearInterval(myfunc);
         //Se limpian para que no muestre el desbordamiento de tiempo
-        document.getElementById("days").innerHTML = ""
-        document.getElementById("hours").innerHTML = "" 
-        document.getElementById("mins").innerHTML = ""
-        document.getElementById("secs").innerHTML = ""
-
-        document.getElementById("end").innerHTML = "Finalizo";
+        document.getElementById("days").innerHTML = "00"
+        document.getElementById("hours").innerHTML = "00" 
+        document.getElementById("mins").innerHTML = "00"
+        document.getElementById("secs").innerHTML = "00"
     }
 }, 1000);
