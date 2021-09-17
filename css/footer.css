@@ -1,12 +1,8 @@
 .pie-de-pagina{
-    
     text-align: center;
     position: absolute;
     bottom: 0rem;
     left: 0rem;
     width: calc(100%);
     padding-bottom:  1rem;
-}
-a{
-    color: var(--White);
 }

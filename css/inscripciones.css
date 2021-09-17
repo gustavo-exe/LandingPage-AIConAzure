@@ -5,8 +5,7 @@
     flex-direction: column;
     position: relative;
     justify-content:center;
-    background: linear-gradient(180deg, #203A61 0%, #0078D4 100%);
-    color: var(--White);
+    
 }
 
 .detalles{
@@ -94,7 +93,8 @@ a{
 
 .boton{
     margin-top: 1rem;
-    background-color: var(--PC-Purple);
+    background-color: var(--PC-Blue);
+    color: var(--White);
     text-align: center;
     padding:1rem; 
     font-weight: bold;
@@ -104,5 +104,8 @@ a{
 {
     .contador{
         font-size: 3rem;
+    }
+    .inscripcion{
+        padding: 1rem;
     }
 }

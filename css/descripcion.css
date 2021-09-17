@@ -1,0 +1,18 @@
+.descripcion{
+    text-align: center;
+    padding:8rem;
+    font-weight:500;
+    background: linear-gradient(180deg, #203A61 0%, #0078D4 100%);
+    color: var(--White);
+    font-size: calc(1em + 1vw);
+}
+
+
+@media only screen and (max-width: 599px)
+{
+    .descripcion{
+        padding:8rem 1rem 8rem 1rem;
+        text-align: left;
+        line-height: 2rem;
+    }
+}
