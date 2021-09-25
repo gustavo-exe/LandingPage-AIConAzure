@@ -1,0 +1,48 @@
+.direccion{
+    display:flex;
+    flex-wrap: wrap;
+    color:var(--White);
+    gap:1rem;
+}
+.dia, .hora, .lugar{
+    flex: 1;
+    padding:2rem 2rem 2rem 2rem;
+    white-space: nowrap;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    
+}
+
+.hora-hora, .dia-numero{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.lugar-titulo, .hora-momento, .dia-mes{
+    letter-spacing: 4px;
+    font-size: 1.4rem;
+}
+
+.hora-gmt{
+    font-size:0.6rem;
+}
+
+.dia, .lugar{
+    background-color: var(--Dark-Blue);
+}
+
+.hora{
+    background-color: var(--PC-Purple);
+}
+
+.lugar{
+    gap: 1rem;
+}
+.lugar-icono{
+    width:4rem;
+    height:4rem;
+    background-image: url('../images/icons/teams.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}

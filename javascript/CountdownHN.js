@@ -27,5 +27,11 @@ var myfunc = setInterval(function() {
         document.getElementById("hours").innerHTML = "00" 
         document.getElementById("mins").innerHTML = "00"
         document.getElementById("secs").innerHTML = "00"
+        const reuinion = document.getElementById("botonReuinion");
+        const inscribirme = document.getElementById("botonInscribirme");
+        reuinion.classList.toggle('boton--active');
+        inscribirme.classList.toggle('boton--inactive')
+
+
     }
 }, 1000);

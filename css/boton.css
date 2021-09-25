@@ -1,0 +1,27 @@
+a{
+    text-decoration: none;
+    width: 100%;
+}
+
+.boton{
+    margin-top: 1rem;
+    background-color: var(--PC-Blue);
+    color: var(--White);
+    text-align: center;
+    padding:1rem; 
+    font-weight: bold;
+}
+
+.boton--reunion{
+    margin: 0rem 0rem 3rem 0rem;
+    padding: 2rem;
+    display:none;
+}
+
+.boton--active{
+    display: block;
+}
+
+.boton--inactive{
+    display: none;
+}
